@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
     tokenizer = AutoTokenizer.from_pretrained(
         MODEL_ID,
-        model_max_length=512,
+        model_max_length=MAX_LENGTH,
         padding_side="left",
         trust_remote_code=True,
         add_eos_token=True,
